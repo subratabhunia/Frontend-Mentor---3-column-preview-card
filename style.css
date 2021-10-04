@@ -1,0 +1,129 @@
+html {
+  font-size: 10px;
+}
+.main {
+  width: auto;
+  height: 80rem;
+  position: relative;
+  background-color: hsl(0, 0%, 95%);
+}
+.row {
+  display: flex;
+
+  flex-direction: row;
+  position: absolute;
+  top: 16rem;
+  left: 25rem;
+}
+.col {
+  width: 20.8rem;
+  height: 49.8rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  position: relative;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+.col-1 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.col-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.col-3 {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.btn {
+  border-radius: 5rem;
+  background-color: white;
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  position: absolute;
+  left: 4rem;
+  bottom: 4rem;
+}
+
+.btn-1:link,
+.btn-1:visited {
+  color: hsl(31, 77%, 52%);
+}
+.btn-1:active {
+  border: 2rem solid white;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+.btn-2:link,
+.btn-2:visited {
+  color: hsl(184, 100%, 22%);
+}
+.btn-2:active {
+  border: 2rem solid white;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+
+.btn-3:link,
+.btn-3:visited {
+  color: hsl(179, 100%, 13%);
+}
+.btn-3:active {
+  border: 2rem solid white;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
+p {
+  padding-bottom: 8rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+}
+.icon {
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-wrap: wrap;
+    width: 325px;
+    height: 443px;
+    top: 10px;
+    left: 10px;
+  }
+  .btn-1:active {
+    border: 2px solid white;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+  }
+  .btn-2:active {
+    border: 2px solid white;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+  }
+  .btn-3:active {
+    border: 2px solid white;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+  }
+  .main {
+    width: auto;
+    height: auto;
+  }
+  .attribution {
+    position: absolute;
+    bottom: 10px;
+  }
+}
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 600px;
+}
